@@ -1,0 +1,104 @@
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="245dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/score_sheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+            
+            <ImageView
+                android:id="@+id/img_play_1"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:src="@mipmap/cry_icon"/>
+
+            <TextView
+                android:id="@+id/tv_name_play_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"
+                android:text="name"
+                android:lines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/tv_win_count_play_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_big"
+                android:text="0"
+                android:layout_marginTop="23dp"
+                android:lines="1"
+                android:ellipsize="end"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/img_play_2"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:src="@mipmap/trophy_icon"/>
+
+            <TextView
+                android:id="@+id/tv_name_play_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"
+                android:text="name"
+                android:lines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/tv_win_count_play_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_big"
+                android:text="0"
+                android:layout_marginTop="23dp"
+                android:lines="1"
+                android:ellipsize="end"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="138dp"
+        android:layout_height="71dp"
+        android:src="@drawable/btn_home_normal_style"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/img_again"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:src="@drawable/btn_play_again_normal_style"
+        android:layout_above="@+id/img_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12.5dp"/>
+
+</RelativeLayout>

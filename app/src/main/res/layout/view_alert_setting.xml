@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="272dp"
+    android:layout_height="182dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/settings_sheet">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/img_sounds"
+        android:layout_width="107dp"
+        android:layout_height="31dp"
+        android:layout_above="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="28dp"
+        android:src="@mipmap/off_switch" />
+
+    <ImageView
+        android:id="@+id/img_music"
+        android:layout_width="107dp"
+        android:layout_height="31dp"
+        android:layout_above="@+id/img_sounds"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/on_switch" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

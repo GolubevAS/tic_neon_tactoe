@@ -1,0 +1,124 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:minHeight="130dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/transparent_box">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="14dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_player1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal2"
+                android:text="name"
+                android:lines="1"
+                android:ellipsize="end"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"/>
+
+            <TextView
+                android:id="@+id/tv_player1_win_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_big"
+                android:text="1"
+                android:layout_marginTop="17dp"
+                android:lines="1"
+                android:ellipsize="end"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vs"
+            android:layout_gravity="center_vertical|bottom"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_player2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal2"
+                android:text="name"
+                android:lines="1"
+                android:ellipsize="end"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"/>
+
+            <TextView
+                android:id="@+id/tv_player2_win_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_big"
+                android:text="2"
+                android:layout_marginTop="17dp"
+                android:lines="1"
+                android:ellipsize="end"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.5dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="11.5dp">
+
+        <TextView
+            android:id="@+id/tv_draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal2"
+            android:text="Draw:5"
+            android:layout_weight="2"
+            android:layout_marginLeft="19dp"/>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="17.5dp"
+            android:layout_toLeftOf="@+id/tv_time"
+            android:src="@mipmap/stopwatch_icon"
+            android:layout_marginRight="5.5dp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal2"
+            android:text="2 hours ago"
+            android:layout_marginRight="19dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

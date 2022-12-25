@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tic (Neon) Tac Toe</string>
+
+    <string name="ai">Робот</string>
+    <string name="friends">Друг</string>
+    <string name="record">Записи</string>
+    <string name="players">ИГРОКИ</string>
+    <string name="player1">Игрок 1</string>
+    <string name="player2">Игрок 2</string>
+    <string name="hint_player1">Имя</string>
+    <string name="hint_player2">Имя</string>
+    <string name="select_chessman">ВЫБИРАЙ ФИШКУ</string>
+    <string name="ok">Продолжить</string>
+    <string name="plaing_chess">Крестики\n Нолики</string>
+    <string name="vs">VS</string>
+    <string name="history">История</string>
+    <string name="history_hint">Записи последних 10 игр</string>
+</resources>
